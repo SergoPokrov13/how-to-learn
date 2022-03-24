@@ -186,6 +186,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 .table_text-margin {
@@ -258,7 +259,7 @@
   text-align: center;
 }
 
-#theme_dark {
+.theme_dark {
   color: white;
 }
 
@@ -293,7 +294,7 @@
   justify-content: space-between;
 }
 
-.footer__column_content-copyright {
+.footer__columns-copyright{
   flex-basis: 711px;
   position: relative;
 }
@@ -306,6 +307,7 @@
   font-size: 18px;
   padding: 18px 0;
   font-weight: normal;
+  color:#f2f2f2;
 }
 
 .footer__column_content-info {
