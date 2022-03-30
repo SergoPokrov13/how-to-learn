@@ -35,7 +35,7 @@
 /* и элемента с модификатором вида ключ-значение */
 
 .logo {
-  width: 228px;
+  width: 183px;
   height: 32px;
   margin: 0;
 }
@@ -70,6 +70,7 @@
   z-index: 100;
   line-height: 25px;
   font-weight: normal;
+  margin: 0;
 }
 
 .header__link {
@@ -88,10 +89,8 @@
 }
 
 .description {
-  margin: 0 auto;
   margin-top: 100px;
   display: flex;
-  padding: 0;
   justify-content: center;
 }
 
@@ -133,7 +132,6 @@
 }
 
 .digits {
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -146,9 +144,7 @@
   font-weight: bold;
   text-align: center;
   width: 60%;
-  margin: 0;
-  margin-bottom: 20px;
-  margin-top: 100px;
+  margin: 100px 0 20px;
   z-index: 10;
 }
 
@@ -167,17 +163,14 @@
   justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
+  margin: 0 0 90px;
   padding: 0;
-  margin: 0;
-  margin-bottom: 90px;
   z-index: 10;
-  text-align: left;
 }
 
 .table__cell {
   width: 250px;
-  margin: 0;
-  margin-top: 60px;
+  margin: 90px 0 0;
 }
 
 .table__heading {
@@ -191,7 +184,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 20px;
+  margin: 20px 0 0;
 }
 
 .feynman {
@@ -218,8 +211,7 @@
 }
 
 .feyman__subtitle {
-  margin-top: 70px;
-  margin: 0;
+  margin: 70px 0 0;
   padding: 0;
   line-height: 51px;
   font-size: 36px;
@@ -253,9 +245,7 @@
   position: relative;
   background-color: #1f1f1f;
   overflow: hidden;
-  margin: 0 auto;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
@@ -286,8 +276,6 @@
   width: 877px;
   height: 877px;
   position: absolute;
-  padding: 0;
-  margin: 0;
   top: 0;
   right: -210px;
 }
@@ -313,7 +301,7 @@
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -331,7 +319,7 @@
   color: #f2f2f2;
 }
 
-.footer__colum_content_social {
+.footer__column_content_social {
   justify-content: flex-start;
   color: #f2f2f2;
 }
