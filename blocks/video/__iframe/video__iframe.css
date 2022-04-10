@@ -2,6 +2,7 @@
     z-index: 10;
     padding-right: 20px;
     margin: 0;
+    border: 0;
 }
 
 .video__iframe:last-child{
